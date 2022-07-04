@@ -1,0 +1,52 @@
+name:                mdev-gpu
+version:             0.1.0.0
+github:              "Arc-Compute/mdev-gpu"
+license:             GPL-2
+author:              "Michael Buchel"
+maintainer:          "michael@arccompute.io"
+copyright:           "2666680 Ontario Inc. O\\A Arc Compute"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            GPU
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/Arc-Compute/mdev-gpu#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- optparse-applicative
+- yamlparse-applicative
+- aeson
+- fixed-vector
+- bimap
+- ioctl
+- unix
+- split
+- text
+- directory
+- containers
+- path
+
+library:
+  source-dirs: src
+  ghc-options:
+  - -freduction-depth=0
+
+executables:
+  mdev-cli:
+    main:                Main.hs
+    source-dirs:         app/Cli
+    ghc-options:
+    - -freduction-depth=0
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - mdev-gpu

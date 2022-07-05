@@ -136,7 +136,7 @@ createNvMDevs mpgpu rgpu discard requests = do
     validGpu _ = error "No GPU found."
 
     castToVec s = V.fromList ((map castCharToCChar s) ++ repeat 0)
-    toBytes x = fromIntegral (x * 1024 * 1024) :: CULong
+    toBytes x = (fromIntegral x :: CULong) * 1024 * 1024
 
 {-| Frees an internal resource tree from the GPU kernel module.
 -}

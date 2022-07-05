@@ -1,6 +1,7 @@
 # Changelog for mdev-gpu
 
 ## [1.0.0] - 2022-07-04
+- FIXED: Limitation of 4 GBs mediated GPUs in NVIDIA code.
 - ADDED: Configuration parsing in JSON + YAML.
 - ADDED: Help dialogue for mdev-cli.
 - ADDED: mdev-cli to create arbitrary NVIDIA Mediated GPUs.

@@ -1,9 +1,8 @@
 # Mdev GPU
 
-This is a tool release by the OpenMdev foundation to act
+This is a tool released by the OpenMdev Foundation which acts
 as a simple configurator for creating new mediated devices
-on different types of GPUs. As of this moment we only support
-NVIDIA vGPUs.
+on different types of GPUs.
 
 # Learn More
 

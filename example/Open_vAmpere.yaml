@@ -1,0 +1,71 @@
+gpus:
+-
+  filter:
+  - vendorId: 0x10DE
+  - deviceId: 0x20B0
+  mdevConfigs:
+  -
+   num: 529
+   name: "Open vAmpere"
+   vDevId: 0x20B01479
+   maxInstances: 1
+   fbLen: 38336
+   fbRes: 2624
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x800
+   multiMdev: True
+  -
+   num: 530
+   name: "Open vAmpere/2"
+   vDevId: 0x20B01471
+   maxInstances: 2
+   fbLen: 19136
+   fbRes: 1344
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x400
+  -
+   num: 531
+   name: "Open vAmpere/4"
+   vDevId: 0x20B01470
+   maxInstances: 4
+   fbLen: 9536
+   fbRes: 704
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x400
+  -
+   num: 532
+   name: "Open vAmpere/8"
+   vDevId: 0x20B0146F
+   maxInstances: 8
+   fbLen: 4736
+   fbRes: 384
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x400

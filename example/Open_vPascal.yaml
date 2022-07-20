@@ -1,0 +1,18 @@
+gpus:
+-
+  mdevConfigs:
+  -
+   num: 22
+   name: "Open vPascal"
+   maxInstances: 8
+   fbLen: 976
+   fbRes: 24
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x100

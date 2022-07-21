@@ -10,6 +10,8 @@ GPU virtualization is not widely supported using free(libre) driver programs on 
 
 Mdev-GPU enables the creation of arbitrary user-configurable Mediated Device types on existing drivers which either don't support [VFIO-Mdev functionality](https://openmdev.io/index.php/Virtual_I/O_Internals#Mdev_Mode) or only support pre-defined Mdev types.
 
+![](https://openmdev.io/images/c/cb/Mdev-GPU-Example_Use.gif)
+
 # How does this work?
 
 In order to virtualize the GPU via the VFIO-Mdev API a driver must register devices and mdev callbacks with the Mediated Core.
@@ -25,7 +27,7 @@ For further information see the Virtual I/O Internals article on OpenMdev.io und
 
 If you are running a program which interacts with the [VFIO-Mdev API](https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git/tree/Documentation/driver-api/vfio-mediated-device.rst) then you can install Mdev-GPU underneath it without modifying your programs or changing your workflow.
 
-Here is a list of some unmodified programs that can interact with functionality enabled by Mdev-GPU without changing how they work:
+Here is a list of some existing programs that can interact with functionality enabled by Mdev-GPU without modification:
 
 - [LibVirt](https://libvirt.org/)
 - [LibVF.IO](https://libvf.io/)

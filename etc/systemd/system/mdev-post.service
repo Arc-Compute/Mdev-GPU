@@ -1,0 +1,13 @@
+[Unit]
+Description=Posts the GPU(s) in a state where they are ready to be virtualized. 
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+Restart=on-failure
+RestartSec=5s
+
+ExecStart=/usr/bin/sudo /usr/bin/mdev-cli -c /etc/gvm/mdev-gpu/generate-vgpu-types.yaml
+
+[Install]
+WantedBy=multi-user.target

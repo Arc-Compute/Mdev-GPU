@@ -1,8 +1,5 @@
 gpus:
 -
-  filter:
-  - vendorId: 0x10DE
-  - deviceId: 0x20B0
   mdevConfigs:
   -
    num: 529

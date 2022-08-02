@@ -4,6 +4,10 @@ Mdev-GPU is a user-configurable utility for GPU vendor drivers enabling the regi
 
 Mdev-GPU is released under GPLv2 as one component of the [GPU Virtual Machine (GVM) Project](https://gvm-docs.openmdev.io/).
 
+# How do I use Mdev-GPU?
+
+- [Documentation for Mdev-GPU](https://openmdev.io/index.php/Mdev-GPU)
+
 # What does Mdev-GPU do?
 
 GPU virtualization is not widely supported using free(libre) driver programs on commodity GPUs.
@@ -36,7 +40,6 @@ Here is a list of some existing programs that can interact with functionality en
 # Learn More
 
 - [Documentation from the OpenMdev Foundation](https://openmdev.io)
-- [Documentation for mdev-gpu](https://gvm-docs.openmdev.io/mdev-gpu)
 
 # Compilation
 

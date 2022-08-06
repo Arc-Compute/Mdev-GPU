@@ -6,6 +6,7 @@ gpus:
    maxInstances: 10
    fbLen: 976
    fbRes: 24
+   gpuClass: "Graphics"
    virtDisplay:
      numHeads: 4
      maxResX: 1920

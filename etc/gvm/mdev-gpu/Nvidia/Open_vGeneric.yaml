@@ -1,0 +1,48 @@
+gpus:
+-
+  mdevConfigs:
+  -
+   num: 1
+   maxInstances: 10
+   fbLen: 896
+   fbRes: 128
+   gpuClass: "Geforce"
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x100
+  -
+   num: 2
+   maxInstances: 10
+   fbLen: 896
+   fbRes: 128
+   gpuClass: "NVS"
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x100
+  -
+   num: 3
+   maxInstances: 10
+   fbLen: 896
+   fbRes: 128
+   gpuClass: "Quadro"
+   virtDisplay:
+     numHeads: 4
+     maxResX: 1920
+     maxResY: 1080
+     frlConfig: 120
+     frlEnable: 1
+   ecc: True
+   mapVideoSize: 4
+   bar1Len: 0x100

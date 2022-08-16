@@ -6,11 +6,12 @@ gpus:
    maxInstances: 10
    fbLen: 896
    fbRes: 128
+   name: "GVM [Geforce /10]"
    gpuClass: "Geforce"
    virtDisplay:
      numHeads: 4
-     maxResX: 1920
-     maxResY: 1080
+     maxResX: 3840
+     maxResY: 2160
      frlConfig: 120
      frlEnable: 1
    ecc: True
@@ -21,11 +22,12 @@ gpus:
    maxInstances: 10
    fbLen: 896
    fbRes: 128
+   name: "GVM [NVS /10]"
    gpuClass: "NVS"
    virtDisplay:
      numHeads: 4
-     maxResX: 1920
-     maxResY: 1080
+     maxResX: 3840
+     maxResY: 2160
      frlConfig: 120
      frlEnable: 1
    ecc: True
@@ -36,11 +38,12 @@ gpus:
    maxInstances: 10
    fbLen: 896
    fbRes: 128
+   name: "GVM [Quadro /10]"
    gpuClass: "Quadro"
    virtDisplay:
      numHeads: 4
-     maxResX: 1920
-     maxResY: 1080
+     maxResX: 3840
+     maxResY: 2160
      frlConfig: 120
      frlEnable: 1
    ecc: True

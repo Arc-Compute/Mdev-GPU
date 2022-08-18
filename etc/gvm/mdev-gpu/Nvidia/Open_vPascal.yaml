@@ -8,6 +8,7 @@ gpus:
    fbRes: 128
    name: "GVM [Geforce /10]"
    gpuClass: "Geforce"
+   vDevId: 0x1B301B30
    virtDisplay:
      numHeads: 4
      maxResX: 3840
@@ -24,6 +25,7 @@ gpus:
    fbRes: 128
    name: "GVM [NVS /10]"
    gpuClass: "NVS"
+   vDevId: 0x1B301B30
    virtDisplay:
      numHeads: 4
      maxResX: 3840
@@ -40,6 +42,7 @@ gpus:
    fbRes: 128
    name: "GVM [Quadro /10]"
    gpuClass: "Quadro"
+   vDevId: 0x1B301B30
    virtDisplay:
      numHeads: 4
      maxResX: 3840

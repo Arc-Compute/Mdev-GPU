@@ -7,7 +7,7 @@ RemainAfterExit=yes
 Restart=on-failure
 RestartSec=5s
 
-ExecStart=/usr/bin/sudo /usr/bin/mdev-cli -c /etc/gvm/mdev-gpu/generate-vgpu-types.yaml
+ExecStart=/usr/bin/mdev-cli -c /etc/gvm/mdev-gpu/generate-vgpu-types.yaml
 
 [Install]
 WantedBy=multi-user.target
